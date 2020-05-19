@@ -1,0 +1,24 @@
+2020-05-19T13:26:07,306 TRACE [main]: ClientServiceImpl                    - reportTop3ClientsBasedOnMoneySpent - method entered 
+2020-05-19T13:26:07,309 TRACE [main]: ClientServiceImpl                    - getClientList - method entered 
+2020-05-19T13:26:07,459 TRACE [main]: ClientServiceImpl                    - getClientList - method finished: clientSet=[Client{BaseEntity{id=1} firstName='aaa', lastName='aab', address='aaa@aaadd'}, Client{BaseEntity{id=13} firstName='ff', lastName='ff', address='ff@ff'}, Client{BaseEntity{id=2} firstName='bbb', lastName='bbccc', address='bb@yahpp'}] 
+2020-05-19T13:26:07,461 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method entered: clientId=1 
+2020-05-19T13:26:07,485 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method finished: sum=35.5 
+2020-05-19T13:26:07,486 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method entered: clientId=13 
+2020-05-19T13:26:07,489 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method finished: sum=15.5 
+2020-05-19T13:26:07,489 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method entered: clientId=2 
+2020-05-19T13:26:07,491 TRACE [main]: ClientServiceImpl                    - getMoneySpentForClient - method finished: sum=0.0 
+2020-05-19T13:26:07,492 TRACE [main]: ClientServiceImpl                    - reportTop3ClientsBasedOnMoneySpent - method finished: sortedClients=[Client{BaseEntity{id=1} firstName='aaa', lastName='aab', address='aaa@aaadd'}=35.5, Client{BaseEntity{id=13} firstName='ff', lastName='ff', address='ff@ff'}=15.5, Client{BaseEntity{id=2} firstName='bbb', lastName='bbccc', address='bb@yahpp'}=0.0] 
+2020-05-19T13:26:14,307 TRACE [main]: ClientServiceImpl                    - reportTop3BestSellingBooks - method entered 
+2020-05-19T13:26:14,311 TRACE [main]: ClientServiceImpl                    - getBookList - method entered 
+2020-05-19T13:26:14,329 TRACE [main]: ClientServiceImpl                    - getBookList - method finished: bookSet=[Book{BaseEntity{id=6} title='b', author='b', publisher='b', publicationYear=1999, price=20.0}, Book{BaseEntity{id=8} title='d', author='d', publisher='d', publicationYear=1988, price=12.0}, Book{BaseEntity{id=5} title='a', author='a', publisher='a', publicationYear=2012, price=15.5}] 
+2020-05-19T13:26:14,330 TRACE [main]: ClientServiceImpl                    - getBookSales - method entered: bookId=6 
+2020-05-19T13:26:14,370 TRACE [main]: ClientServiceImpl                    - getBookSales - method finished: count=1 
+2020-05-19T13:26:14,370 TRACE [main]: ClientServiceImpl                    - getBookSales - method entered: bookId=8 
+2020-05-19T13:26:14,372 TRACE [main]: ClientServiceImpl                    - getBookSales - method finished: count=0 
+2020-05-19T13:26:14,372 TRACE [main]: ClientServiceImpl                    - getBookSales - method entered: bookId=5 
+2020-05-19T13:26:14,374 TRACE [main]: ClientServiceImpl                    - getBookSales - method finished: count=2 
+2020-05-19T13:26:14,374 TRACE [main]: ClientServiceImpl                    - reportTop3BestSellingBooks - method finished: sortedBooks=[Book{BaseEntity{id=5} title='a', author='a', publisher='a', publicationYear=2012, price=15.5}=2, Book{BaseEntity{id=6} title='b', author='b', publisher='b', publicationYear=1999, price=20.0}=1, Book{BaseEntity{id=8} title='d', author='d', publisher='d', publicationYear=1988, price=12.0}=0] 
+2020-05-19T13:27:56,386 TRACE [main]: Main                                 - Start... 
+2020-05-19T13:28:04,702 TRACE [main]: ClientServiceImpl                    - getPurchaseList - method entered 
+2020-05-19T13:28:04,815 TRACE [main]: ClientServiceImpl                    - getPurchaseList - method finished: purchaseSet=[Purchase{BaseEntity{id=15} clientId=1, bookId=6, library=k}, Purchase{BaseEntity{id=16} clientId=13, bookId=5, library=h}, Purchase{BaseEntity{id=14} clientId=1, bookId=5, library=g}] 
+2020-05-19T13:28:07,702 TRACE [main]: Main                                 - End... 
